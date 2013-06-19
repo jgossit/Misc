@@ -1,0 +1,8 @@
+button, label, .ui-widget {
+	font-size: 12px;
+	font-family: verdana;
+}
+.count {
+	font-size: 48px;
+	font-family: verdana;
+}

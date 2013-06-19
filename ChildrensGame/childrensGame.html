@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Children's Game</title>
+	<meta charset="utf-8"/>
+	<link type="text/css" href="css/jquery-ui.css" rel="Stylesheet"/>
+	<link type="text/css" href="css/childrensGame.css" rel="Stylesheet"/>
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/sprintf.js"></script>
+	<script type="text/javascript" src="js/childrensGame.js"></script>
+	<script type="text/javascript" src="js/childrensGame_strings_en.js"></script>
+</head>
+<body onload="loadui()">
+	<div id="ui">
+		<div id="error" title="Error"></div>
+		<div id="controls" align="center">
+			<label id="numChildrenLabel" for="numChildren">Number of children</label>
+			<input id="numChildren" name="numChildren" /><br/>
+			<label id="removeOnCountLabel" for="removeOnCount">Remove on count of</label>
+			<input id="removeOnCount" name="removeOnCount" /><br/>
+			<button id="playButton">Play</button>
+		</div>
+		<div id="board" style="width:100%"></div>
+	</div>
+</body>
+</html>
